@@ -68,4 +68,5 @@ abstract class AbstractToyFactory {
 }
 
 $myToy = AbstractToyFactory::makeToy(new CarFactory(), "child");
-echo $toy->play();
+
+echo $myToy->play();
